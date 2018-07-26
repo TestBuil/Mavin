@@ -7,8 +7,8 @@
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
-  <name>Maven Web Project 22nd April</name>
-  <description>Maven Web Project for Java Project</description>
+  <name>Maven New Project</name>
+  <description>Maven New Java Project</description>
 
  <organization>
      <name>Mithun Technologies</name>
@@ -82,13 +82,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:9090/mithuntechnologies/repository/maven-releases/</url>
+	      <name>Narendra</name>
+	      <url>http://localhost:8086/Narendra/repository/TestMavin/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:9090/mithuntechnologies/repository/maven-snapshots</url>
+	      <name>Narendra Snapshot Nexus Repository </name>
+	      <url>http://localhost:8086/Narendra/repository/TestMavin_SNAPSHORT/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
