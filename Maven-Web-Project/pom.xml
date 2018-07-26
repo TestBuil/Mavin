@@ -92,8 +92,16 @@
 	    </snapshotRepository>
 	</distributionManagement>
 	
-	<profiles>
-        <profile>
+	
+     
+
+	
+	
+  <build>
+    <plugins>
+      <plugin>
+	      
+	         <profile>
             <id>sonar</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -112,12 +120,7 @@
               </plugins>
             </build>
         </profile>
-  </profiles>
-	
-	
-  <build>
-    <plugins>
-      <plugin>
+	      
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.6.0</version>
